@@ -1,0 +1,97 @@
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    font-size: .95rem;
+    font: messina-sans;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.img-1 {
+    object-fit: cover;
+    position: relative;
+}
+
+.gallery-text {
+    color: #fff;
+    font: gt-sectra;
+    position: absolute;
+    padding-left: 280px;
+    font-size: 3rem;
+    height: 70px;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 506.3px;
+}
+
+.row-2-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: black;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #161f1e;
+    height: 500px;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.content-row {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
